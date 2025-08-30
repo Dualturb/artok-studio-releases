@@ -1,2 +1,2 @@
 # artok-studio-releases
-v1.9.1
+v1.0.0
