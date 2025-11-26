@@ -1,6 +1,22 @@
 # CHANGELOG
 
 All notable changes to this project will be documented in this file.
+---
+
+## [v2.2.1] - 2025-11-26 
+
+### ✨ New Features (Added)
+
+* **AI Inspire Feature:** The AI design drafting tool has been significantly enhanced to focus on generating graceful, impressive, and professional UI design concepts. It now intelligently extracts only the screen count and domain context, giving the AI greater creative freedom to invent aesthetically superior content and layouts.
+
+### ⚙️ Improvements (Changed)
+
+* **AI Prompting Strategy:** Refactored the internal AI prompt construction to prioritize pure inspiration, allowing the AI to invent compelling UI content and aesthetics based on screen count and domain, rather than rigidly adhering to provided widget details.
+* **Frontend UX for Aesthetic Selection:** Replaced the free-text input for "Design Description (Aesthetic)" with a dropdown of predefined aesthetic styles (e.g., 'modern', 'futuristic', 'minimalist', 'dark mode'). This guides users towards more effective inputs, leading to more consistent and higher-quality AI-generated design drafts.
+
+### 🐞 Fixes
+
+* **AI Image Generation API:** Addressed an issue with the AI image generation API call that resulted in a "model not found" error when attempting to use an incorrect model identifier. (This refers to the `gemini-2.5-flash-image` error and the fix to use `imagen-4.0-generate-001`).
 
 ---
 
@@ -51,6 +67,6 @@ All notable changes to this project will be documented in this file.
 * Updated the internal mechanism for **handling font loading**.
 
 ---
-
+[v2.2.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.2.1
 [v2.2.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.2.0
 [v2.1.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.1.1

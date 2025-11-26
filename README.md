@@ -1,79 +1,62 @@
-🎉 Artok Studio v2.1.0 Release Notes: The "Asset Packer" Update
+# Artok Studio
 
-Artok Studio v2.1.0 is a monumental release that completely revamps the build and export pipeline. The major focus of this version is the introduction of the Optimized Binary Structure and the ability to package all user assets—images, fonts, and event scripts—into a single, optimized binary file for deployment.
+[![Artok Studio Landing Page](https://img.shields.io/badge/Landing%20Page-artok.dualturb.com-blue?style=for-the-badge&logo=vercel)](https://artok.dualturb.com)
+[![Dualturb Website](https://img.shields.io/badge/Dualturb-dualturb.com-orange?style=for-the-badge&logo=linktree)](https://dualturb.com)
+[![Docs Site](https://img.shields.io/badge/Documentation-dualturb.com%2Fdocs-red?style=for-the-badge&logo=readthedocs)](https://dualturb.com/docs)
+[![Discord](https://img.shields.io/discord/YOUR_DISCORD_ID?label=Discord&style=for-the-badge&logo=discord&color=7289DA)](YOUR_DISCORD_INVITE_LINK) ## 🚀 AI-Native HMI GUI Editor for Embedded LCD Modules
 
-🚀 Key New Features
+Artok Studio is a groundbreaking **AI-native HMI (Human-Machine Interface) GUI Editor** engineered specifically for **embedded LCD modules**. Developed by Dualturb, Artok Studio empowers engineers, designers, and developers to rapidly design, prototype, and deploy intuitive user interfaces for a new generation of smart devices, industrial equipment, and embedded systems.
 
-1. Optimized Binary Output & Asset Packaging
+Leveraging the power of Artificial Intelligence, Artok Studio revolutionizes the traditional HMI development workflow, transforming complex design challenges into seamless, intelligent, and efficient processes.
 
-The entire project export system has been upgraded to utilize an efficient, new binary structure, making your HMI file size smaller and load times faster on target hardware.
+### ✨ Why Artok Studio?
 
-Optimized Binary Format: Core implementation of an optimized and efficient binary export structure (de86248).
+In the fast-evolving landscape of embedded systems, creating rich, responsive, and visually appealing HMIs quickly is a significant challenge. Artok Studio addresses this by offering:
 
-Image Packaging: Images and their corresponding assets are now packed directly into the binary file (32b0845, 283b666).
+* **AI-Driven Design Inspiration:** Break through creative blocks. With Artok Studio, describe your desired aesthetic and domain, and let our AI generate graceful, impressive, and professional UI design drafts, providing instant visual concepts to kickstart your projects.
+* **Intelligent Code Generation:** Accelerate development with AI-powered code generation for common UI events and logic. Artok Studio helps bridge the gap between design and implementation, making your HMI functional faster.
+* **Intuitive Drag-and-Drop Editor:** A robust and user-friendly visual editor that allows you to build complex UI layouts with ease, without writing endless lines of code.
+* **Embedded Focus:** Designed from the ground up for the constraints and requirements of embedded LCD modules, ensuring efficient resource utilization and optimal performance.
+* **Multi-Screen Management:** Seamlessly design and manage complex applications across multiple screens and states, enabling sophisticated user experiences.
+* **Cross-Platform Portability (Coming Soon):** While optimized for embedded, our vision extends to cross-platform deployment, allowing your designs to reach a wider range of hardware.
 
-Animated Image Support: Full support for packing and generating animated image sequences (d9c1a11).
+### 💡 Core Features
 
-Font Assets: Font files are now properly packed into the UI binary (632a47f).
+* **AI Design Drafts (AI Inspire):** Generate high-quality UI design concepts simply by specifying the number of screens, aesthetic style (e.g., 'modern', 'futuristic', 'dark mode'), and application domain.
+* **AI Event Code Generation:** Automatically generate boilerplate and complex event-handling code for your UI widgets, significantly reducing manual coding effort.
+* **Visual HMI Editor:** A responsive and powerful canvas for creating your UI layouts with drag-and-drop simplicity.
+* **Widget Library:** A comprehensive and extensible library of UI widgets tailored for embedded systems (e.g., Buttons, Labels, Sliders, Dropdowns, Tables, Charts, and more).
+* **Resource Management:** Efficiently manage images, fonts, and other assets required for your HMI.
+* **Project Export:** Export your designs for deployment to your target embedded hardware.
+* **Version Control Integration (Planned):** Seamlessly integrate with popular version control systems to manage your HMI projects.
 
-Style and Event Packaging: Widget style properties and event handler code are successfully packed into the final output binary (dcad069, 4c76b02, abf6238).
+### 🛠️ Getting Started
 
-2. Widget & Customization Enhancements
+Visit our official landing page to experience Artok Studio:
+**[https://artok.dualturb.com](https://artok.dualturb.com)**
 
-We've integrated new widgets and dramatically expanded font customization options.
+For detailed guides and documentation:
+**[https://dualturb.com/docs](https://dualturb.com/docs)**
 
-New Widgets: Integrated support for three essential widgets:
+Here you can find:
+* Interactive demos
+* Comprehensive documentation
+* Tutorials and guides
+* Information on how to **acquire and get started** with Artok Studio.
 
-Image Widget (cbc7ed5, 7e20716).
+### 🌐 Dualturb - The Innovators Behind Artok Studio
 
-Image Button Widget (ccdc182).
+Artok Studio is a flagship product of **Dualturb**, a technology startup dedicated to pushing the boundaries of AI-driven development tools. At Dualturb, we believe in empowering creators and engineers with intelligent solutions that simplify complexity and unlock new levels of productivity and innovation.
 
-Animated Image Widget (1a7ec11).
+Learn more about our vision and other ventures at:
+**[https://dualturb.com](https://dualturb.com)**
 
-Advanced Font Support: You can now fully control typography across your project:
+### 📞 Contact & Support
 
-Support for Custom Fonts (2ea0389).
+For support, inquiries, or feedback regarding Artok Studio, please reach out to us:
+* **Website:** [dualturb.com](https://dualturb.com)
+* **Email:** [info@dualturb.com](mailto:info@dualturb.com)
+* **Discord:** [Join our community](https://discord.gg/vZ5kEaVHfr)
 
-Support for Built-in Fonts (ac9ad84).
-
-Added the ability to edit Font BPP (Bits Per Pixel) (cd819c5).
-
-Updated the Style Panel to allow easy font selection (2f78661).
-
-Lua Event System: Implemented core mechanisms for Lua scripting and event handling, including identifier and handler code pools (8c45dfa, 8159943).
-
-3. Feature Gating & User Plan Limits
-
-The application now enforces limitations based on the user's plan tier, ensuring fair feature access.
-
-Initial implementation of Feature Gating draft alpha (db00563).
-
-Implemented hard limits on the number of screens, images, fonts, and keyboard resources available (1861682).
-
-Updated internal plan limit values (f0c9ba6).
-
-🛠 Stability and Performance Improvements
-
-This release includes numerous critical fixes that improve stability, especially in complex projects and specific operating systems.
-
-Critical Fixes
-
-Platform Compatibility: Fixed issues that prevented font conversion and building in specific Windows environments (924cfd7, 7f92c86, 5e956d7).
-
-Memory and Performance: Resolved a critical memory leak issue (ef7fa28) and combined the string pool for faster memory access (f794e82).
-
-Rendering Stability: Addressed multiple crashes and display bugs:
-
-Fixed crashes related to switching screens and customized fonts (ed7ed3a, 32dfb9, dbec05d, c8cc2ab).
-
-Resolved issues causing image blur, stripes, or widgets failing to display (93a6ac2).
-
-General Improvements & Refactoring
-
-Project Flow: Fixed an issue where image previews failed to display when loading a project (cb92423).
-
-Serial Communication: Updated the serial protocol to support ACK per chunk for more reliable transfers (cd997a3) and fixed a serial port connection issue (54c41d9).
-
-Code Quality: Extensive refactoring to decouple store state management (056548a), rename core internal files from lvgl_ to atk_ (43ef03e), and clean up debug logs across the codebase (21d47cf, e2c4be5).
-
-We believe v2.1.0 delivers a massive leap forward in making your projects robust and ready for deployment. Thank you for your continued support!
+---
+**Dualturb - Innovating at the Intersection of AI and Embedded Systems.**
