@@ -1,7 +1,40 @@
 # CHANGELOG
 
 All notable changes to this project will be documented in this file.
+
 ---
+
+## [v2.3.0] - 2026-01-25
+
+### ✨ New Features (Added)
+
+* **Artok Connect & AtkLink:** Introduced a comprehensive live-sync ecosystem. Artok Studio can now communicate directly with hardware via the `AtkLink` protocol, supporting real-time remote commands and status monitoring.
+* **AI Design Suite:** Significant expansion of our AI-driven workflow tools:
+    * **AI Appearance:** Automatically generate and apply professional visual styles and themes.
+    * **AI Interactions:** Generate behavioral logic and interactive component responses using natural language prompts.
+* **Professional Widget Expansion:** Massive update to the component library, including high-performance **Charts (with dynamic scaling), ColorWheels, LEDs, Spinners, and advanced Navigation Views (Tabs/Tiles).**
+* **Universal Display Support (Beta):** Preliminary support for resolution-independent layouts, ensuring UI designs scale accurately across different screen densities.
+* **Enhanced Localization:** Added native support for **Chinese typography** and improved system-level font integration.
+
+### ⚙️ Improvements (Changed)
+
+* **Artok Core Engine:** Upgraded the underlying framework to a more robust "Engine-first" architecture, significantly improving stability and simulation accuracy.
+* **High-Performance Object Management:** Refactored internal object tracking to improve lookup speeds and memory efficiency for complex, high-widget-count projects.
+* **Integrated Resource Management:** Optimized asset handling for fonts and images, reducing the final export size and improving runtime loading speeds.
+* **Professional Debugging Tools:** Overhauled the **Output** and **Terminal** consoles to provide actionable feedback and detailed telemetry during the design process.
+* **Workflow Optimization:** Improved canvas responsiveness with smart geometry debouncing and optimized data transfer speeds.
+
+### 🐞 Fixes
+
+* **Stability & Performance:** Eliminated critical memory leaks and resolved issues where the simulator could become unresponsive during extended sessions.
+* **Visual Fidelity:** Fixed various rendering glitches related to 16-bit color depth and asset path resolution.
+* **Logic Precision:** Resolved inconsistencies in event triggers and script execution logic.
+* **Asset Loading:** Fixed multiple issues involving font compilation and binary data packing.
+
+### ⚠️ Important Updates
+
+* **API Refinement:** Standardized internal logic registration. Custom scripts using legacy handlers may require a minor update to the new naming convention.
+* **Unified Branding:** Finalized the transition of all internal components under the **Artok Runtime** brand.
 
 ## [v2.2.1] - 2025-11-26 
 
@@ -67,6 +100,8 @@ All notable changes to this project will be documented in this file.
 * Updated the internal mechanism for **handling font loading**.
 
 ---
+[v2.3.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.3.0
 [v2.2.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.2.1
 [v2.2.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.2.0
 [v2.1.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.1.1
+
