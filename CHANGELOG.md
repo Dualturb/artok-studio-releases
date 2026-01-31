@@ -1,7 +1,33 @@
 # CHANGELOG
 
 All notable changes to this project will be documented in this file.
+---
 
+## [v2.3.1] - 2026-01-31
+
+### ✨ New Features (Added)
+
+* **Professional Table Management:** Significantly expanded the **Table Widget** capabilities, including native support for adding/deleting columns and a modernized rendering style for industrial data sets.
+* **Expanded Command Set:** Updated the native engine to support a broader range of hardware commands, strengthening the integration between the UI layer and the underlying system.
+* **AI Guardrails:** Implemented safety guards for the **AI Event Handler generation** to ensure more consistent and error-free code output for complex interactions.
+
+### ⚙️ Improvements (Changed)
+
+* **HMI Aesthetic Overhaul:** Comprehensive UI update to deliver a more professional and modern aesthetic across all generated components, aligning with high-end industrial design standards.
+* **Widget Optimization:** * Refined the **Button** widget for a cleaner, minimalist footprint.
+    * Renamed `layoutDescriptor` to `buttonWeights` for better API clarity and intent.
+    * Renamed **Flex Box** to **Flex** for industry-standard nomenclature.
+* **Property Panel Refinement:** Overhauled the Widget Properties Panel with improved native bindings, ensuring real-time feedback and better state synchronization.
+* **Architecture Cleanup:** Removed several incomplete container widgets to maintain a stable, production-ready build environment.
+
+### 🐞 Fixes
+
+* **Critical Widget Hardening:** Resolved functional and rendering issues across a wide array of core widgets:
+    * **Data & Inputs:** Fixed Chart (resolved crash issues), Table, Dropdown, Roller, Slider, and Bar widgets.
+    * **Indicators & Controls:** Fixed Arc, Meter, Message Box, and Button Matrix widgets.
+    * **Geometry & Tools:** Fixed Line, QR Code, and Window widget rendering inconsistencies.
+* **Simulator Stability:** Resolved a critical issue where the simulator would experience "duplicate booting," ensuring a cleaner development workflow.
+* **Engine Native:** Fixed engine-level versioning mismatches and optimized native command processing.
 ---
 
 ## [v2.3.0] - 2026-01-25
@@ -100,6 +126,7 @@ All notable changes to this project will be documented in this file.
 * Updated the internal mechanism for **handling font loading**.
 
 ---
+[v2.3.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.3.1
 [v2.3.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.3.0
 [v2.2.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.2.1
 [v2.2.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.2.0
