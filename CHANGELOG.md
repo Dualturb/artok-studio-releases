@@ -1,7 +1,24 @@
 # CHANGELOG
 
 All notable changes to this project will be documented in this file.
+
 ---
+
+## [v2.4.0] - 2026-02-28
+
+### ✨ High-Performance Experience
+* **Fluid Interface Motion:** Integrated a new hardware-accelerated rendering layer, ensuring that every transition, animation, and interaction feels buttery smooth and responsive.
+* **Intelligent Canvas Productivity:** A major upgrade to the design workflow. Introduced professional-grade shortcuts including universal Copy/Paste and precision Keyboard Nudge for a more tactile design experience.
+* **Project Context Awareness:** Added a new Breadcrumb and Status system, providing designers with constant orientation within complex, multi-screen HMI projects.
+
+### 🤖 AI-Native Evolution
+* **Smart Fragment System:** Introduced a modular way to build HMIs. AI can now generate and manage "Fragments"—autonomous UI blocks that can be reused across different screens and projects.
+* **Refined Interaction Logic:** Enhanced the way the AI understands user intent, resulting in more natural and reliable behavioral generation for complex components.
+
+### ⚙️ Engine Maturity
+* **Optimized Binary Assembly:** Completely reimagined the project packaging process. The new "Pure Build" algorithm ensures that your UI is lightweight, robust, and optimized for industrial-grade deployment.
+* **Advanced Component Stability:** A deep-layer refinement of the core library, specifically focusing on the behavior of multi-layered navigation (TabView) and complex data components.
+* **Unified Workspace:** Refactored internal state management to ensure the Studio environment remains fast and stable, even during high-intensity design sessions.
 
 ## [v2.3.1] - 2026-01-31
 
@@ -126,6 +143,7 @@ All notable changes to this project will be documented in this file.
 * Updated the internal mechanism for **handling font loading**.
 
 ---
+[v2.4.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.4.0
 [v2.3.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.3.1
 [v2.3.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.3.0
 [v2.2.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.2.1
