@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 
 ---
+## [v2.5.0] - 2026-03-31
+
+### ✨ Hardware Agnostic Engine
+* **Universal Color Depth Support:** Massive architectural update providing native compatibility for **1, 8, 16, and 32-bit BPP** environments. This enables a single design workflow to target a full spectrum of hardware, from low-power monochromatic displays to high-fidelity true-color displays.
+* **Flexible Resolution & Orientation:** Introduced professional-grade support for custom display dimensions and pixel-density configurations within the core binary, ensuring perfect UI scaling across diverse hardware targets.
+* **Intelligent Resource Pruning:** Implemented a **Dependency Scanning** system that automatically identifies and removes unused visual assets and typography, significantly reducing the final binary footprint for memory-constrained edge devices.
+
+### ⚙️ Performance & Workflow Refinement
+* **Modular Architecture Decoupling:** Completed a major strategic refactor to decouple core internal modules, resulting in a more robust and extensible environment for complex HMI projects.
+* **Boot Sequence Optimization:** Re-engineered the internal startup workflows for the design sandbox and runtime environment, leading to significantly faster project loading and simulation stability.
+* **Memory Alignment & Data Integrity:** Optimized low-level data structures for 4-byte alignment and smart endianness handling, maximizing hardware memory access speeds and cross-platform compatibility.
+
+### 🐞 Fixes
+* **Visual Fidelity:** Resolved specific rendering inconsistencies and "black screen" anomalies previously affecting 16-bit color depth environments.
+* **System Stability:** Eliminated critical crash triggers during active simulation and addressed minor widget-rendering synchronization issues.
+* **Resource Management:** Fixed serialization errors within specific modular components to ensure asset persistence across complex, multi-screen project structures.
 
 ## [v2.4.0] - 2026-02-28
 
@@ -143,6 +159,7 @@ All notable changes to this project will be documented in this file.
 * Updated the internal mechanism for **handling font loading**.
 
 ---
+[v2.5.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.5.0
 [v2.4.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.4.0
 [v2.3.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.3.1
 [v2.3.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.3.0
