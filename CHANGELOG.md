@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 
 ---
+## [v2.5.1] - 2026-05-05
+
+### ⚙️ Engine Refinement
+* **Animation System Hardening:** Resolved a critical issue within the Animation widget logic to ensure smooth, predictable motion across all supported hardware tiers.
+* **Core Logic Stability:** Implemented general stability patches to the internal state controller, addressing edge-case behaviors identified in the v2.5.0 deployment.
+
+### 🐞 Fixes
+* **Widget Integrity:** Fixed rendering and behavioral inconsistencies within the animation module to maintain high-fidelity visual feedback.
+* **System Persistence:** Resolved minor internal issues to ensure consistent project performance during extended simulation sessions.
+
 ## [v2.5.0] - 2026-03-31
 
 ### ✨ Hardware Agnostic Engine
@@ -159,6 +169,7 @@ All notable changes to this project will be documented in this file.
 * Updated the internal mechanism for **handling font loading**.
 
 ---
+[v2.5.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.5.1
 [v2.5.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.5.0
 [v2.4.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.4.0
 [v2.3.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.3.1
