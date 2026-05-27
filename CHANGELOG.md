@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 
 ---
+## [v2.6.0] - 2026-05-27
+
+### 🤖 AI Engine Evolution
+* **Advanced AI Feature Expansion:** Upgraded our built-in intelligence suite to offer smarter generation capabilities, bringing better alignment between intent prompts and structural UI output.
+* **Intelligent Generation Guardrails:** Addressed critical edge cases in the AI backend pipeline to eliminate failed generations, ensuring a more reliable and seamless automated workflow.
+
+### ✨ Visual Experience & Performance
+* **Instant Boot Optimization:** Resolved a display latency issue ("blank screen delay") that previously occurred during specific system initializations, resulting in near-instant visual rendering on target environments.
+* **Architecture Maintenance:** Completed a deep-layer refactoring and code modernization sprint to improve runtime efficiency and lower resource utilization on memory-constrained devices.
+
+### 🐞 Fixes
+* **Stability Hardening:** Resolved various backend API anomalies to ensure robust connectivity with our AI processing services.
+* **General System Polish:** Patched minor runtime bugs to maintain strict industrial-grade reliability during continuous operation.
+
 ## [v2.5.1] - 2026-05-05
 
 ### ⚙️ Engine Refinement
@@ -169,6 +183,7 @@ All notable changes to this project will be documented in this file.
 * Updated the internal mechanism for **handling font loading**.
 
 ---
+[v2.6.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.6.0
 [v2.5.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.5.1
 [v2.5.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.5.0
 [v2.4.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.4.0
