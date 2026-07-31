@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 
 ---
+## [v2.6.1] - 2026-07-31
+
+### ⚙️ Renderer & Layout Hardening
+* **Multi-Axis Scaling Precision:** Implemented dynamic overlay synchronization to maintain pixel-perfect widget alignment across non-uniform display aspect ratios.
+* **Workspace Buffer Cleanse:** Enhanced rendering state handling to ensure clean canvas resets and proper parameter reinitialization when transitioning between projects.
+
+### 🐞 Fixes
+* **Overlay Alignment:** Resolved minor visual drift on UI overlays during rapid canvas scaling operations.
+* **Project Continuity:** Fixed edge-case canvas buffer lingering issues when loading consecutive HMI project configurations.
+
 ## [v2.6.0] - 2026-05-27
 
 ### 🤖 AI Engine Evolution
@@ -183,6 +193,7 @@ All notable changes to this project will be documented in this file.
 * Updated the internal mechanism for **handling font loading**.
 
 ---
+[v2.6.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.6.1
 [v2.6.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.6.0
 [v2.5.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.5.1
 [v2.5.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.5.0
