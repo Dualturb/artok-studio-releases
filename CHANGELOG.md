@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 
 ---
+## [v2.6.2] - 2026-09-07
+
+### ⚙️ Engine & Renderer Hardening
+* **Color Space Precision:** Resolved a color mapping mismatch occurring on high-bit-depth (32-bit BPP) target displays, ensuring exact chromatic accuracy between design previews and hardware execution.
+* **Core Runtime Optimization:** Refined internal buffer allocations to improve baseline rendering throughput during complex frame transitions.
+
+### 🐞 Fixes & Polish
+* **Display Fidelity:** Corrected pixel-level color channel translation errors on high-precision display panels.
+* **General Stability:** Applied targeted fixes across the UI workspace to enhance long-term session stability and editor performance.
+
 ## [v2.6.1] - 2026-07-31
 
 ### ⚙️ Renderer & Layout Hardening
@@ -193,6 +203,7 @@ All notable changes to this project will be documented in this file.
 * Updated the internal mechanism for **handling font loading**.
 
 ---
+[v2.6.2]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.6.2
 [v2.6.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.6.1
 [v2.6.0]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.6.0
 [v2.5.1]: https://github.com/Dualturb/artok-studio-releases/releases/tag/v2.5.1
